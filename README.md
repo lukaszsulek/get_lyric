@@ -2,7 +2,7 @@
 Foobar Lyric Show 3 component external_command script to retrieve lyrics from genius.com
 
 # Prerequisites:
-  - Foobar2000
+  - foobar2000
   - foo_uie_lyrics3 plugin (ie: Lyric Show 3), available here: https://github.com/tripod31/foo_lyricsource
   - python3 environment
   - genius.com account and corresponding API access/token
@@ -19,6 +19,6 @@ Test the script using the following syntax: `.\get_lyric.py --artist "Trace Moun
 If successful, the lyrics should display on the terminal.
 
 # Foobar setup
-Now, in Foobar, go to Preferences -> Tools -> Lyric Show 3, and remove all entries you can from the `Search order` table, and ensure that `external command` is present in the `Search order` table and is first.
+Now, in Foobar, go to Preferences -> Tools -> Lyric Show 3, and remove all entries you can from the `Search order` table, and ensure that `external command` method is present in the `Search order` table and is first. Ensure you apply accordingly. A restart of foobar should not be required.
 
 Assuming you followed all of the steps, lyrics should display dynamically!
