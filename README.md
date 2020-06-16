@@ -3,7 +3,8 @@ Foobar Lyric Show 3 component external_command script to retrieve lyrics from ge
 
 # Prerequisites:
   - foobar2000
-  - `foo_uie_lyrics3` plugin (ie: Lyric Show 3), available here: https://github.com/tripod31/foo_lyricsource
+  - `foo_uie_lyrics3` plugin (ie: Lyric Show 3), available here: https://www.foobar2000.org/components/view/foo_uie_lyrics3
+  - `foo_lyricsource` plugin, available here: https://github.com/tripod31/foo_lyricsource
   - python3 environment
   - genius.com account and corresponding API access/token
   - `lyricsgenius` python module, provided by John W. Miller here: https://github.com/johnwmillr/LyricsGenius
