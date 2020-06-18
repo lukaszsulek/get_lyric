@@ -22,4 +22,7 @@ song = genius.search_song(sys.argv[4], sys.argv[2])
 # This will tell your python3 environment to use UTF-8
 #   PYTHONIOENCODING UTF-8
 
-print(song.lyrics)
+try:
+    print(song.lyrics)
+except AttributeError:
+    print(f"{sys.argv[2]} - {sys.argv[4]}\n\nLyrics not found")
