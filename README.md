@@ -25,3 +25,7 @@ Now, in Foobar, go to Preferences -> Tools -> Lyric Show 3, and remove all entri
 ![image](https://user-images.githubusercontent.com/66498057/84733953-86172980-af54-11ea-8a45-a55fd757733d.png)
 
 Assuming you followed all of the steps, lyrics should display dynamically!
+
+# Known Issues
+If running on Windows, you may get a `UnicodeEncodeError` exception due to, well, Windows/Python default encoding. Follow the steps here http://www.tiernok.com/posts/python-3-6-unicode-output-for-windows-console.html
+This will tell your python3 environment to use UTF-8
