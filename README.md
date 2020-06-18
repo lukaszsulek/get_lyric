@@ -12,7 +12,7 @@ Foobar Lyric Show 3 component external_command script to retrieve lyrics from ge
 # Setup
 `git clone` or copy the contents of `get_lyric.py`, and place it into your foobar2000 installation directory, ie: `C:\Program Files (x86)\foobar2000`
 
-Replace the API_KEY placeholder string in the script with your API token from genius.com
+Replace the API_KEY placeholder string in the script with your API token from genius.com. This should be a 64 character string.
 
 # Script test
 Test the script using the following syntax: `.\get_lyric.py --artist "Trace Mountains" --song "Absurdity"`
